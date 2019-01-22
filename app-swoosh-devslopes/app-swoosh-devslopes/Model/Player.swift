@@ -9,6 +9,14 @@
 import Foundation
 
 struct Player {
-    var desiredLeague: String?
-    var selectedSkillLever: String?
+    var desiredLeague: String!
+    var selectedSkillLever: String!
 }
+
+/*
+ var myData:String! Implicty unwrapped optional
+    Use when you can guarantee variable will have data in it before used
+ 
+ var myData:String? Optional
+    Use when there may or may not be data in the variable at runtime
+ */
